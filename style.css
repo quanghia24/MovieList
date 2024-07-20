@@ -1,17 +1,22 @@
 * {
-    box-sizing: border-box;   
+    box-sizing: border-box;
 }
 
 body {
-    background-color: black;
+    background-color: #131720;
     font-family: sans-serif;
+}
+
+h3 {
+    color: white;
 }
 
 .nav-bar {
     overflow: hidden;
-    background-color: darkorchid;
+    background-color: #131720;
     padding: 10px;
 }
+
 .nav-bar a {
     float: left;
     display: block;
@@ -23,31 +28,34 @@ body {
     text-transform: uppercase;
 }
 
-.nav-bar .nav-search {
+.nav-bar .search-container {
     float: right;
-
 }
+
 form {
-    background-color: gray;
+    background-color: #151f30;
     width: 300px;
-    height: 40px;
+    height: 43px;
     border-radius: 11px;
     display: flex;
     align-items: center;
 }
+
 input {
     all: unset;
-    font-size: 15px system-ui;
-    color: white;
+    font: 15px system-ui;
+    color: #fff;
     height: 100%;
     width: 100%;
-    padding-left: 30x 12px;
+    padding: 6px 9px;
 }
+
 .movieThumbnail {
     height: 350px;
-    width: 250px;
-    border-radius: 11px;
+    width: 300px;
+    border-radius: 19px;
 }
+
 .col {
     float: left;
     width: 25%;
@@ -55,13 +63,8 @@ input {
 }
 
 .card {
-    border-radius: 11px;
+    border-radius: 19px;
     padding: 15px;
-    width: 300px;
     text-align: center;
-    background-color: rgba(53, 53, 53, 0.301);
-}
-
-h3 {
-    color: white;
+    background-color: #151f30;
 }
